@@ -3,6 +3,13 @@
     "version" : "1.0.0",
     "author" : "Gromozdov Andrey Alexandrovich",
     "main" : "node-deploy-client.js",
+	"bin" : {
+		"node-deploy-client" : "./bin/node-deploy-client"
+	},
+	"repository" : {
+		"type": "git",
+		"url" : "git://github.com/andygrom/node-deploy-client.git"
+	},
     "dependencies" : {
         "optimist" : "*",
 		"tmp" : "*"
