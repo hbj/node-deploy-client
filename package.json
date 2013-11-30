@@ -1,0 +1,10 @@
+{
+    "name" : "node-deploy-client",
+    "version" : "1.0.0",
+    "author" : "Gromozdov Andrey Alexandrovich",
+    "main" : "node-deploy-client.js",
+    "dependencies" : {
+        "optimist" : "*",
+		"tmp" : "*"
+    }
+}
