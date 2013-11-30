@@ -26,4 +26,6 @@ Usages
 	node-deploy-client
 	```
 
-	
+License
+-------
+MIT. See License.txt file.	
