@@ -2,7 +2,7 @@
     "name" : "node-deploy-client",
     "version" : "1.0.0",
     "author" : "Gromozdov Andrey Alexandrovich",
-    "main" : "node-deploy-client.js",
+    "main" : "lib/node-deploy-client.js",
 	"bin" : {
 		"node-deploy-client" : "./bin/node-deploy-client"
 	},
@@ -12,7 +12,9 @@
 	},
     "dependencies" : {
         "optimist" : "*",
-		"tmp" : "*"
+		"tmp" : "*",
+        "fstream" : "*",
+        "tar" : "*"
     },
 	"keywords" : [
 		"deploy"
