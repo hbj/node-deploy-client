@@ -1,10 +1,10 @@
 The Node.js deploy client
-=========================  
+=========================
 It is client side part of https://github.com/AndyGrom/node-deploy-server
 
 Usages
 ------------
-1. Install service
+1. Install tool
 
 	```bash
 	npm install node-deploy-client -g
