@@ -1,6 +1,6 @@
 The Node.js deploy client
 =========================
-It is client side part of https://github.com/AndyGrom/node-deploy-server
+It is client side part of [node-deploy-server](https://github.com/AndyGrom/node-deploy-server)
 
 Usages
 ------------
@@ -22,7 +22,7 @@ Usages
 		}
 	}
 	```
-3. Run tool
+3. Run tool into root folder your project
 	
 	```bash
 	node-deploy-client
