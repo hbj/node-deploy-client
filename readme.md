@@ -1,5 +1,8 @@
 The Node.js deploy client
 =========================
+
+Node.js commnd-line tool is designed to help you deploy your node.js application 
+
 It is client side part of [node-deploy-server](https://github.com/AndyGrom/node-deploy-server)
 
 Usages
