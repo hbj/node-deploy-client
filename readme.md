@@ -19,10 +19,10 @@ Usages
 	{
 		"url" : {
 			"hostname" : "localhost",	// hostname node-deploy-server
-			"port" : 15478,             // tcp port
-			"username" : "admin",       // username. analog server-side username
-            "password" : "admin"        // password. analog server-side password
-		}
+			"port" : 15478              // tcp port
+		},
+    	"username" : "admin",       // username. analog server-side username
+        "password" : "admin"        // password. analog server-side password
 	}
 	```
 3. Run tool into root folder your project
