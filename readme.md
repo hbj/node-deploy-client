@@ -28,7 +28,7 @@ Usages
 3. Run tool into root folder your project
 	
 	```bash
-	node-deploy-client
+	deploy
 	```
 
 License

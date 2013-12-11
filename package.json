@@ -4,7 +4,7 @@
     "author" : "Gromozdov Andrey Alexandrovich",
     "main" : "lib/node-deploy-client.js",
 	"bin" : {
-		"node-deploy-client" : "./bin/node-deploy-client"
+		"deploy" : "./bin/deploy"
 	},
 	"repository" : {
 		"type": "git",
