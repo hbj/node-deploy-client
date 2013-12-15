@@ -16,23 +16,13 @@ Usages
 	Create into root folder your project ".deploy" file with next content:
 	
 	```javascript
-    {
-        "dev" : {                           // configuration name
-            "url" : {
-                "hostname" : "localhost",   // hostname node-deploy-server
-                "port" : "15478"            // server port
-            },
-            "username" : "admin",           // username. Analog server-side username
-            "password" : "admin"		    // password. Analog server-side password
-        },
-        "staging" : {                       // other configuration name
-            "url" : {
-                "hostname" : "192.168.1.3",
-                "port" : "15478"
-            },
-            "username" : "admin",
-            "password" : "admin"
-        }
+	{
+    	"development" : {                                   // configuration name
+    		"url" : "http://admin:admin@localhost:15478"    // deploy server url
+    	},
+    	"staging" : {                                       // other configuration name
+    		"url" : "http://admin:admin@192.168.1.3:15478"  // other deploy server url
+    	}
     }
 	```
 3. Run tool into root folder your project
