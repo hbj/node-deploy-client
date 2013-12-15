@@ -16,19 +16,29 @@ Usages
 	Create into root folder your project ".deploy" file with next content:
 	
 	```javascript
-	{
-		"url" : {
-			"hostname" : "localhost",	// hostname node-deploy-server
-			"port" : 15478              // tcp port
-		},
-    	"username" : "admin",       // username. analog server-side username
-        "password" : "admin"        // password. analog server-side password
-	}
+    {
+        "dev" : {                           // configuration name
+            "url" : {
+                "hostname" : "localhost",   // hostname node-deploy-server
+                "port" : "15478"            // server port
+            },
+            "username" : "admin",           // username. Analog server-side username
+            "password" : "admin"		    // password. Analog server-side password
+        },
+        "staging" : {                       // other configuration name
+            "url" : {
+                "hostname" : "192.168.1.3",
+                "port" : "15478"
+            },
+            "username" : "admin",
+            "password" : "admin"
+        }
+    }
 	```
 3. Run tool into root folder your project
 	
 	```bash
-	deploy
+	deploy <configuration name>
 	```
 
 License
