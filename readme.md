@@ -25,6 +25,14 @@ Usages
     	}
     }
 	```
+	into your package.json file fill next fields
+	```javascript	
+	{
+		"name" : "name of application",	// name must correlate with server-side application name
+		"main" : "server.js"			// main script what will performing after deploying
+	}
+	```
+	
 3. Run tool into root folder your project
 	
 	```bash
@@ -35,7 +43,7 @@ License
 -------
 The MIT License
 
-Copyright (c) 2013 Gromozdov Andrey Alexandrovich.
+Copyright (c) 2013-2014 Gromozdov Andrey Alexandrovich.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
