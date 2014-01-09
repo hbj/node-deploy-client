@@ -1,6 +1,6 @@
 {
     "name" : "node-deploy-client",
-    "version" : "1.0.1",
+    "version" : "0.2.0",
     "author" : "Gromozdov Andrey Alexandrovich",
     "main" : "lib/node-deploy-client.js",
 	"bin" : {
